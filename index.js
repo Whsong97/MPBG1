@@ -4,9 +4,9 @@ let result;
 
 function playGame(playerSelection) {
   computerSelection = Math.random();
-  if (computerSelection < 0.34) {
+  if (computerSelection < 0.35) {
     computerSelection = "rock";
-  } else if (computerSelection <= 0.67) {
+  } else if (computerSelection <= 0.65) {
     computerSelection = "paper";
   } else {
     computerSelection = "scissors";
