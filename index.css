@@ -11,12 +11,17 @@ body {
   }
   
   button {
-    background-color: #4CAF50;
+    background-color: #4ca3af;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
     width: 150px;
+  }
+  
+  #result {
+    margin-top: 50px;
+    font-size: 36px;
   }
   
