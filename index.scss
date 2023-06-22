@@ -1,0 +1,55 @@
+// Variables
+$board-size: 300px;
+$cell-size: 100px;
+$player-color: blue;
+$opponent-color: red;
+
+// Game board styles
+.board {
+  width: $board-size;
+  height: $board-size;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.cell {
+  width: $cell-size;
+  height: $cell-size;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: lightgray;
+  }
+}
+
+// Player styles
+.player {
+  color: $player-color;
+}
+
+.opponent {
+  color: $opponent-color;
+}
+
+// Winning combination styles
+.winning-cell {
+  background-color: lightgreen;
+}
+
+// Game status styles
+.status {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
